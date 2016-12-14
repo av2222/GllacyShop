@@ -154,6 +154,48 @@ main .slider{
 	border:0;
 }
 
+.slider .slider-switch{
+	position:relative;
+	top:-100px;
+}
+
+.slider-switch label{
+	display:inline-block;
+	cursor:pointer;
+	position:relative;
+	padding-left:25px;
+	margin-right:5px;
+}
+
+.slider-switch input[type=radio]{
+	display:none;
+}
+
+.slider-switch label:before{
+	border:3px solid white;
+	content:"";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position:absolute;
+	left: 0;
+	top: -4px;
+	border-radius:15px;
+}
+
+.slider-switch input[type=radio]:checked + label:before{
+	border:3px solid white;
+	background-color:white;
+	content:"";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position:absolute;
+	left: 0;
+	top: -4px;
+	border-radius:15px;
+}
+
 main .main-banner {
 	margin-left:12px;
 	margin-right:12px;
