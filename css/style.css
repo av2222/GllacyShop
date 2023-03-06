@@ -239,6 +239,7 @@ main .slider{
 }
 
 .slider button{
+	display:block;
 	position:absolute;
 	padding-top:15px;
 	padding-bottom:15px;
